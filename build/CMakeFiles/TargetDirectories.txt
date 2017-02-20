@@ -1,0 +1,3 @@
+/home/carlos/Series/build/CMakeFiles/rebuild_cache.dir
+/home/carlos/Series/build/CMakeFiles/edit_cache.dir
+/home/carlos/Series/build/CMakeFiles/Series.dir
