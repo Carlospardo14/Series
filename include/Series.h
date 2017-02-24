@@ -4,12 +4,12 @@ class Series
 {
 public:
 	//Atributos
-	double n;
+	int n;
 	//Constructor
-	Series(double n);
+	Series(int n);
 	//Metodos
 	double fibonacciIt();
-	double fibonacciRec(double n);
+	double fibonacciRec(int n);
 	double factorialIt();
-	double factorialRec(double n);
+	double factorialRec(int n);
 };

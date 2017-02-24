@@ -2,11 +2,15 @@
 
 int main()
 {
-	std::cout<<"Hello World"<<std::endl;
-
-	int n = 40; 
-
+	//variables
+	int n; 
+	//Pide un numero para hacer las operaciones
+	std::cout<< "Ingrese un entero"<<std::endl;
+	//Lee un numero desde el teclado
+	std::cin>>n; 
+	//Objeto s de la clase Series
 	Series s(n);
+	//Se llaman a los metodos y se imprimen los resultados
 	std::cout<<s.fibonacciIt()<<std::endl;
 	std::cout<<s.fibonacciRec(n)<<std::endl;
 	std::cout<<s.factorialIt()<<std::endl;

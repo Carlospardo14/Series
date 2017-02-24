@@ -1,10 +1,11 @@
-#include "Series.h"
+#include "Series.h"	
 
-Series::Series(double n)
+Series::Series(int n)
 {
 	this->n=n;
 }
 
+//Fibonacci Metodo Iterativo
 double Series::fibonacciIt()
 {
 	if (this->n < 2)
@@ -21,7 +22,8 @@ double Series::fibonacciIt()
 	return c;
 }
 
-double Series::fibonacciRec(double n)
+//Fibonacci Metodo Recursivo
+double Series::fibonacciRec(int n)
 {
 	if (n < 2)
 		return n;
@@ -29,6 +31,7 @@ double Series::fibonacciRec(double n)
 
 }
 
+//Factorial Metodo Iterativo
 double Series::factorialIt()
 {
 	if (this->n < 2)
@@ -39,7 +42,8 @@ double Series::factorialIt()
 	return a;
 }
 
-double Series::factorialRec(double n)
+//Factorial Metodo recursivo
+double Series::factorialRec(int n)
 {
 	if(n<2)
 		return 1;
